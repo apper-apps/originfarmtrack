@@ -77,6 +77,86 @@
     "expectedHarvest": "2024-08-20",
     "location": "Greenhouse B",
     "quantity": 80,
-    "status": "growing"
+"status": "growing"
+  },
+  {
+    "Id": 9,
+    "farmId": 1,
+    "type": "Wheat",
+    "plantingDate": "2023-03-15",
+    "expectedHarvest": "2023-07-15",
+    "location": "North Field",
+    "quantity": 45,
+    "status": "harvested",
+    "soilHealthScore": 75,
+    "yieldData": {
+      "actual": 45,
+      "expected": 43,
+      "previous": 40
+    }
+  },
+  {
+    "Id": 10,
+    "farmId": 1,
+    "type": "Soybeans",
+    "plantingDate": "2023-05-01",
+    "expectedHarvest": "2023-09-01",
+    "location": "South Field",
+    "quantity": 38,
+    "status": "harvested",
+    "soilHealthScore": 85,
+    "yieldData": {
+      "actual": 38,
+      "expected": 36,
+      "previous": 35
+    }
+  },
+  {
+    "Id": 11,
+    "farmId": 2,
+    "type": "Corn",
+    "plantingDate": "2023-04-10",
+    "expectedHarvest": "2023-08-10",
+    "location": "Main Field",
+    "quantity": 55,
+    "status": "harvested",
+    "soilHealthScore": 65,
+    "yieldData": {
+      "actual": 55,
+      "expected": 52,
+      "previous": 48
+    }
+  },
+  {
+    "Id": 12,
+    "farmId": 2,
+    "type": "Barley",
+    "plantingDate": "2023-03-25",
+    "expectedHarvest": "2023-07-25",
+    "location": "East Section",
+    "quantity": 42,
+    "status": "harvested",
+    "soilHealthScore": 78,
+    "yieldData": {
+      "actual": 42,
+      "expected": 40,
+      "previous": 38
+    }
+  },
+  {
+    "Id": 13,
+    "farmId": 3,
+    "type": "Oats",
+    "plantingDate": "2023-04-05",
+    "expectedHarvest": "2023-08-05",
+    "location": "West Section",
+    "quantity": 35,
+    "status": "harvested",
+    "soilHealthScore": 82,
+    "yieldData": {
+      "actual": 35,
+      "expected": 33,
+      "previous": 30
+    }
   }
 ]

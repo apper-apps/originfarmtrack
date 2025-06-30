@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import Button from '@/components/atoms/Button';
 import SearchBar from '@/components/molecules/SearchBar';
 import Loading from '@/components/ui/Loading';
@@ -14,6 +15,7 @@ import { toast } from 'react-toastify';
 import { format, differenceInDays } from 'date-fns';
 
 const Crops = () => {
+  const navigate = useNavigate();
   const [crops, setCrops] = useState([]);
   const [farms, setFarms] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -169,8 +171,15 @@ const Crops = () => {
           <p className="text-gray-600 mt-1">
             Track your planted crops and harvest schedules
           </p>
-        </div>
-        <div className="mt-4 sm:mt-0">
+</div>
+        <div className="mt-4 sm:mt-0 flex space-x-3">
+          <Button 
+            variant="secondary" 
+            icon="RotateCw"
+            onClick={() => navigate('/crop-rotation')}
+          >
+            Rotation Planner
+          </Button>
           <Button 
             variant="primary" 
             icon="Plus"
