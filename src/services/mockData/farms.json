@@ -1,0 +1,34 @@
+[
+  {
+    "Id": 1,
+    "name": "Green Valley Farm",
+    "location": "Iowa, USA",
+    "size": 150,
+    "sizeUnit": "acres",
+    "createdAt": "2024-01-15T08:30:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Sunshine Acres",
+    "location": "Nebraska, USA", 
+    "size": 85,
+    "sizeUnit": "acres",
+    "createdAt": "2024-02-10T10:15:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Prairie View Farm",
+    "location": "Kansas, USA",
+    "size": 220,
+    "sizeUnit": "acres",
+    "createdAt": "2024-03-05T14:20:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Golden Harvest Farm",
+    "location": "Illinois, USA",
+    "size": 95,
+    "sizeUnit": "acres",
+    "createdAt": "2024-03-20T09:45:00Z"
+  }
+]

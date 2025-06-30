@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafaf8;
+    color: #1f2937;
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-forest-700 to-forest-600 hover:from-forest-800 hover:to-forest-700 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 transform hover:scale-[1.02] active:scale-[0.98] shadow-md hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-white border border-gray-300 hover:border-forest-400 text-gray-700 hover:text-forest-700 font-medium px-4 py-2 rounded-lg transition-all duration-200 transform hover:scale-[1.02] active:scale-[0.98] shadow-sm hover:shadow-md;
+  }
+  
+  .btn-accent {
+    @apply bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-700 hover:to-amber-600 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 transform hover:scale-[1.02] active:scale-[0.98] shadow-md hover:shadow-lg;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg border border-gray-200 shadow-card hover:shadow-card-hover transition-shadow duration-200 p-6;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-forest-500 focus:border-forest-500 transition-all duration-200 bg-white;
+  }
+  
+  .label {
+    @apply block text-sm font-medium text-gray-700 mb-2;
+  }
+  
+  .status-pill {
+    @apply px-3 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-forest-700 to-forest-500 bg-clip-text text-transparent;
+  }
+}
+
+/* Toast Customization */
+.Toastify__toast-container {
+  @apply top-4 right-4 w-80;
+}
+
+.Toastify__toast {
+  @apply rounded-lg shadow-elevated border border-gray-200 font-body text-sm;
+  min-height: 56px;
+}
+
+.Toastify__toast--success {
+  @apply bg-white text-gray-800 border-green-200;
+}
+
+.Toastify__toast--error {
+  @apply bg-white text-gray-800 border-red-200;
+}
+
+.Toastify__toast--info {
+  @apply bg-white text-gray-800 border-blue-200;
+}
+
+.Toastify__toast--warning {
+  @apply bg-white text-gray-800 border-yellow-200;
+}
+
+.Toastify__progress-bar--success {
+  @apply bg-green-500;
+}
+
+.Toastify__progress-bar--error {
+  @apply bg-red-500;
+}
+
+.Toastify__progress-bar--info {
+  @apply bg-blue-500;
+}
+
+.Toastify__progress-bar--warning {
+  @apply bg-yellow-500;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+/* Loading Animation */
+@keyframes shimmer {
+  0% { background-position: -200px 0; }
+  100% { background-position: calc(200px + 100%) 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200px 100%;
+  animation: shimmer 1.5s infinite;
+}

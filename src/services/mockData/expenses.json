@@ -1,0 +1,98 @@
+[
+  {
+    "Id": 1,
+    "farmId": 1,
+    "amount": 1250.00,
+    "category": "Seeds",
+    "description": "Corn and soybean seeds for spring planting",
+    "date": "2024-04-10"
+  },
+  {
+    "Id": 2,
+    "farmId": 1,
+    "amount": 850.00,
+    "category": "Fertilizer",
+    "description": "Nitrogen fertilizer for corn field",
+    "date": "2024-05-15"
+  },
+  {
+    "Id": 3,
+    "farmId": 2,
+    "amount": 320.00,
+    "category": "Pesticides",
+    "description": "Organic pest control for tomatoes",
+    "date": "2024-06-01"
+  },
+  {
+    "Id": 4,
+    "farmId": 2,
+    "amount": 2800.00,
+    "category": "Equipment",
+    "description": "New greenhouse ventilation system",
+    "date": "2024-05-20"
+  },
+  {
+    "Id": 5,
+    "farmId": 3,
+    "amount": 1500.00,
+    "category": "Labor",
+    "description": "Seasonal workers for planting",
+    "date": "2024-04-25"
+  },
+  {
+    "Id": 6,
+    "farmId": 3,
+    "amount": 450.00,
+    "category": "Fuel",
+    "description": "Diesel fuel for tractors",
+    "date": "2024-06-10"
+  },
+  {
+    "Id": 7,
+    "farmId": 4,
+    "amount": 650.00,
+    "category": "Maintenance",
+    "description": "Tractor repair and maintenance",
+    "date": "2024-06-15"
+  },
+  {
+    "Id": 8,
+    "farmId": 4,
+    "amount": 380.00,
+    "category": "Utilities",
+    "description": "Electricity for greenhouse operations",
+    "date": "2024-07-01"
+  },
+  {
+    "Id": 9,
+    "farmId": 1,
+    "amount": 1200.00,
+    "category": "Insurance",
+    "description": "Annual farm insurance premium",
+    "date": "2024-03-01"
+  },
+  {
+    "Id": 10,
+    "farmId": 2,
+    "amount": 280.00,
+    "category": "Seeds",
+    "description": "Vegetable seeds for greenhouse",
+    "date": "2024-05-05"
+  },
+  {
+    "Id": 11,
+    "farmId": 3,
+    "amount": 520.00,
+    "category": "Fertilizer",
+    "description": "Organic compost and fertilizer",
+    "date": "2024-06-20"
+  },
+  {
+    "Id": 12,
+    "farmId": 4,
+    "amount": 180.00,
+    "category": "Other",
+    "description": "Greenhouse supplies and tools",
+    "date": "2024-07-05"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "farmId": 1,
+    "cropId": 1,
+    "title": "Watering",
+    "description": "Water the corn field thoroughly",
+    "dueDate": "2024-07-16",
+    "completed": false,
+    "priority": "high"
+  },
+  {
+    "Id": 2,
+    "farmId": 1,
+    "cropId": 2,
+    "title": "Fertilizing",
+    "description": "Apply nitrogen fertilizer to soybean field",
+    "dueDate": "2024-07-18",
+    "completed": false,
+    "priority": "medium"
+  },
+  {
+    "Id": 3,
+    "farmId": 2,
+    "cropId": 3,
+    "title": "Harvesting",
+    "description": "Harvest wheat - it's ready!",
+    "dueDate": "2024-07-15",
+    "completed": false,
+    "priority": "urgent"
+  },
+  {
+    "Id": 4,
+    "farmId": 2,
+    "cropId": 4,
+    "title": "Pest Control",
+    "description": "Check tomatoes for pests and apply treatment if needed",
+    "dueDate": "2024-07-17",
+    "completed": false,
+    "priority": "high"
+  },
+  {
+    "Id": 5,
+    "farmId": 3,
+    "cropId": 5,
+    "title": "Weeding",
+    "description": "Remove weeds from potato field",
+    "dueDate": "2024-07-20",
+    "completed": false,
+    "priority": "medium"
+  },
+  {
+    "Id": 6,
+    "farmId": 3,
+    "cropId": 6,
+    "title": "Soil Testing",
+    "description": "Test soil pH and nutrients in carrot section",
+    "dueDate": "2024-07-22",
+    "completed": false,
+    "priority": "low"
+  },
+  {
+    "Id": 7,
+    "farmId": 4,
+    "cropId": 7,
+    "title": "Watering",
+    "description": "Daily watering of lettuce in greenhouse",
+    "dueDate": "2024-07-16",
+    "completed": true,
+    "priority": "medium"
+  },
+  {
+    "Id": 8,
+    "farmId": 4,
+    "cropId": 8,
+    "title": "Pruning",
+    "description": "Prune pepper plants to encourage growth",
+    "dueDate": "2024-07-25",
+    "completed": false,
+    "priority": "low"
+  },
+  {
+    "Id": 9,
+    "farmId": 1,
+    "cropId": null,
+    "title": "Equipment Maintenance",
+    "description": "Service tractor and farming equipment",
+    "dueDate": "2024-07-19",
+    "completed": false,
+    "priority": "high"
+  },
+  {
+    "Id": 10,
+    "farmId": 2,
+    "cropId": null,
+    "title": "Irrigation System Check",
+    "description": "Inspect and clean irrigation system",
+    "dueDate": "2024-07-21",
+    "completed": false,
+    "priority": "medium"
+  }
+]
